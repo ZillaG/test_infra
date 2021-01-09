@@ -18,3 +18,13 @@ variable "ingress" {
 variable "vpc_id" {
   type = string
 }
+
+variable "vpc_cidr" {
+  type = string
+}
+
+variable "your_home_public_ip" {
+  type        = string
+  description = "Your home's public IP to add to port 22 access"
+}
+
